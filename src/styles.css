@@ -1,8 +1,10 @@
 .navbar {
     margin-bottom: 0px;
     background-color:transparent;
+    border-color: transparent;
+    padding-top: 20px;
 }
-
-    .table {
-        margin-top: 10%;
-    }
+.table {
+    margin-top: 10%;
+        
+}
