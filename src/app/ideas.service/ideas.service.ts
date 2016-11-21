@@ -17,6 +17,7 @@ export class IdeasService {
   }
 
   addIdea(newIdea) {
+    this.ideas = this._af.database.list('/ideas') as FirebaseListObservable<Idea[]>;
     this.ideas.push(newIdea);
   }
 

@@ -10,7 +10,7 @@ import {Idea} from '../Idea';
 
 export class InputBoxComponent {
 
-  ideas: any[];
+  ideas: Idea[];
 
   constructor(private _ideasService:IdeasService) {
     
